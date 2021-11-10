@@ -1,0 +1,33 @@
+:root {
+  --primary: #fff;
+}
+.btn {
+  font-size: large;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff ;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+
+
+.btn:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+}
